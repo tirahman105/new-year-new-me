@@ -12,6 +12,10 @@
     font-size: 20px;
     font-weight: 600;
 }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* banner styles */
 .banner {
@@ -46,13 +50,12 @@
 /* failure section styles */
 .failure{
     display: flex;
-    padding: 100px 100px;
     align-items: center;
     justify-content: space-between;
 }
 
 .failure-text{
-    padding: 50px 100px;
+    padding: 50px 80px;
 }
 
 .failure-title{
@@ -67,4 +70,25 @@
 }
 .fa-check{
     color: #16D887;
+}
+
+/* plan section styles */
+.plan-title{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 30px;
+}
+
+.plan-list{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+
+.plan-heading{
+    margin: 8px 0;
 }
