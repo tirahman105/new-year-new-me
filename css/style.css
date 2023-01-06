@@ -114,6 +114,55 @@ main  {
   margin: 8px 0;
 }
 
+/* recent task styles */
+
+
+.task-title{
+    text-align: center;
+    margin: 90px 0;
+    font-size: 30px;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-list{
+    text-align: left;
+}
+.task-list-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+.single-task{
+    border: 1px solid #005FAC;;
+/* background-color: #005FAC; */
+/* color: #ffffff; */
+height: 200px;
+width: 250px;
+margin-bottom: 20px;
+border-radius: 8px;
+padding: 30px;
+}
+.single-task img{
+    width: 100px;
+}
+.neptune{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.single-task h3{
+    font-size: 24px;
+    margin: 20px 0;
+}
+.task-image img{
+    width: 550px;
+}
+
 /* call me section styles*/
 
 .call-me {
