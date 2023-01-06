@@ -24,6 +24,7 @@
   text-align: right;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .banner-left {
   width: 50%;
@@ -40,4 +41,30 @@
 .banner-description {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+/* failure section styles */
+.failure{
+    display: flex;
+    padding: 100px 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.failure-text{
+    padding: 50px 100px;
+}
+
+.failure-title{
+    font-size: 30px;
+}
+
+.failure-description{
+    margin: 10px 0;
+}
+.failure-list li{
+    list-style: none;
+}
+.fa-check{
+    color: #16D887;
 }
