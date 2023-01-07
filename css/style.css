@@ -4,7 +4,7 @@
   font-family: "Poppins", sans-serif;
 }
 .btn-primary {
-  border: 1px solid #ffffff; 
+  border: 1px solid #ffffff;
   padding: 18px 22px;
   border-radius: 5px;
   color: #0356a4;
@@ -13,31 +13,32 @@
   font-weight: 600;
 }
 .btn-primary:hover {
-    color: #ffffff;
-    background-color: #005FAC;
-    border: 1px solid #ffffff;
-  }
+  color: #ffffff;
+  background-color: #005fac;
+  border: 1px solid #ffffff;
+}
 
 .btn-secondary {
-    border: 0;
-    padding: 18px 22px;
-    border-radius: 5px;
-    color: #ffffff;
-    background-color: #005FAC;
-    font-size: 20px;
-    font-weight: 600;
-  }
+  border: 0;
+  padding: 18px 22px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #005fac;
+  font-size: 20px;
+  font-weight: 600;
+}
 
-  .btn-secondary:hover {
-    color: #005FAC;
-    background-color:#ffffff; 
-    border: 1px solid #005FAC;
-  }
+.btn-secondary:hover {
+  color: #005fac;
+  background-color: #ffffff;
+  border: 1px solid #005fac;
+}
 
-main  {
+main {
   max-width: 1140px;
   margin: 0 auto;
 }
+
 
 /* banner styles */
 .banner {
@@ -82,6 +83,9 @@ main  {
 
 .failure-title {
   font-size: 30px;
+  border-left: 8px solid #005fac;
+  padding-left: 10px;
+  
 }
 
 .failure-description {
@@ -99,6 +103,7 @@ main  {
   text-align: center;
   margin: 50px 0;
   font-size: 30px;
+ 
 }
 
 .plan-list {
@@ -116,51 +121,48 @@ main  {
 
 /* recent task styles */
 
-
-.task-title{
-    text-align: center;
-    margin: 90px 0;
-    font-size: 30px;
+.task-title {
+  text-align: center;
+  margin: 90px 0;
+  font-size: 30px;
 }
-.task{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.task-list{
-    text-align: left;
+.task-list {
+  text-align: left;
 }
-.task-list-items{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    align-items: center;
-    text-align: center;
+.task-list-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
 }
-.single-task{
-    border: 1px solid #005FAC;;
-/* background-color: #005FAC; */
-/* color: #ffffff; */
-height: 200px;
-width: 250px;
-margin-bottom: 20px;
-border-radius: 8px;
-padding: 30px;
+.single-task {
+  border: 1px solid #005fac;
+  height: 200px;
+  width: 250px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 30px;
 }
-.single-task img{
-    width: 100px;
+.single-task img {
+  width: 100px;
 }
-.neptune{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
+.neptune {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
 }
-.single-task h3{
-    font-size: 24px;
-    margin: 20px 0;
+.single-task h3 {
+  font-size: 24px;
+  margin: 20px 0;
 }
-.task-image img{
-    width: 550px;
+.task-image img {
+  width: 550px;
 }
 
 /* call me section styles*/
@@ -179,55 +181,51 @@ padding: 30px;
   margin: 20px 0;
   font-size: 30px;
 }
-.call-me button{
-    margin-bottom: 20px;
+.call-me button {
+  margin-bottom: 20px;
 }
 
 /* footer styles */
 footer {
-    background-color: black;
-  
+  background-color: black;
 }
-.footer{
-    max-width: 1140px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-    color: #ffffff;
-    padding: 80px 0;
-    
-    
+.footer {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  color: #ffffff;
+  padding: 80px 0;
 }
-.future{
-    width: 50%;
+.future {
+  width: 50%;
 }
-.future-text{
-    margin: 15px 0;
+.future-text {
+  margin: 15px 0;
 }
-.fa-envelope .fa-phone{
-    color: #ffffff;
-    margin-right: 5px;
+.fa-envelope .fa-phone {
+  color: #ffffff;
+  margin-right: 5px;
 }
-.phone{
-    margin: 15px 0;
+.phone {
+  margin: 15px 0;
 }
 
-.social-icons{
-    display: flex;
-    gap: 10px;
+.social-icons {
+  display: flex;
+  gap: 10px;
 }
-.subscribe{
-    width: 50%;
-    padding-left: 300px;
+.subscribe {
+  width: 50%;
+  padding-left: 300px;
 }
-.subscribe input{
-    margin: 15px 0;
-    padding: 15px;
-    width: 90%;
-    border-radius: 8px;
-    border: 1px solid #ffffff;
-    background-color: transparent;
-    font-size: 18px;
-    color: white;
+.subscribe input {
+  margin: 15px 0;
+  padding: 15px;
+  width: 90%;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 18px;
+  color: white;
 }
-
